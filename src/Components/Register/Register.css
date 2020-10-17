@@ -1,0 +1,46 @@
+
+.register-form {
+    border: 2px solid lightgray;
+    padding: 30px 50px;
+}
+
+.register-form input:focus {
+    outline: 0;
+}
+
+.register-form input:focus::placeholder {
+    color: transparent;
+  }
+
+.register-form input[type="text"],
+.register-form input[type="email"],
+.register-form input[type="password"] {
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border: none;
+    border-bottom: 2px solid lightgray;
+}
+
+.register-form input[type="submit"] {
+    background-color: #F9A51A;
+    width: 100%;
+    padding: 12px 0;
+    border: none;
+    border-radius: 3px;
+    margin: 15px 0;
+}
+
+.register-form .already-account {
+    text-align: center;
+    margin: 0;
+}
+
+.register-form .error {
+    color: red;
+}
+
+.register-form .input-box {
+    margin-bottom: 20px;
+}
+

@@ -1,0 +1,110 @@
+.logo-section {
+  width: 23%;
+  float: left;
+}
+
+.logo-section img {
+  width: 200px;
+  margin-top: 40px;
+}
+
+.main-menu {
+  width: 77%;
+  overflow: hidden;
+}
+
+.main-menu ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  margin: 40px 0;
+}
+
+.main-menu ul li {
+  display: inline;
+}
+
+.main-menu ul li a {
+  padding: 12px 18px;
+  margin: 0 5px;
+  text-decoration: none;
+  color: black;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.main-menu ul li a:hover {
+  background-color: black;
+  color: white;
+}
+
+.main-menu ul li a.login {
+  background-color: black;
+  color: white;
+}
+
+.main-menu ul li a.admin {
+  background-color: #3f90fc;
+  color: white;
+}
+
+@media all and (max-width: 990px) {
+  .logo-section img {
+    margin: 40px 0 30px;
+  }
+  .logo-section {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  .main-menu {
+    width: 100%;
+  }
+  .main-menu ul {
+    margin-top: 0;
+  }
+}
+
+@media all and (max-width: 790px) {
+  .logo-section img {
+    margin-top: 40px;
+  }
+  .main-menu ul {
+    text-align: left;
+  }
+  .main-menu ul li {
+    display: block;
+  }
+
+  .main-menu ul li a {
+    padding: 12px 30px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    display: inline-block;
+  }
+
+  .main-menu ul li a.login {
+    background-color: transparent;
+    color: black;
+  }
+  .main-menu ul li a.login:hover {
+    background-color: black;
+    color: white;
+  }
+
+  .main-menu ul li a.admin {
+    background-color: transparent;
+    color: black;
+  }
+  .main-menu ul li a.admin:hover {
+    background-color: black;
+    color: white;
+  }
+
+  .main-menu ul li::before {
+    content: ">>";
+  }
+}

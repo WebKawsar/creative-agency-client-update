@@ -1,0 +1,54 @@
+.pending{
+  padding: 13px 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: tomato;
+  color: white;
+}
+
+.onGoing {
+  padding: 13px 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: yellowgreen;
+  color: white;
+}
+
+.done {
+  padding: 13px 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+}
+
+
+
+
+
+
+
+
+@media all and (max-width: 960px) {
+  #home-intro {
+    min-height: 1065px;
+    clip-path: polygon(0 100%, 100% 88%, 100% 0, 0 0);
+  }
+
+  .intro-image-section #intro-image {
+    height: 400px;
+    margin-top: 40px;
+  }
+  
+}
+
+@media all and (max-width: 790px) {
+  #home-intro {
+    min-height: 1300px;
+    clip-path: polygon(0 100%, 100% 88%, 100% 0, 0 0);
+  }
+  #home-intro > .MuiContainer-root > .MuiContainer-root {
+    padding: 0;
+    margin: 0;
+  }
+}
