@@ -30,9 +30,9 @@ function App() {
             <Login></Login>
           </Route>
 
-          <PrivateRoute exact path="/dashboard">
+          <Route exact path="/dashboard">
             <MainDashboard></MainDashboard>
-          </PrivateRoute>
+          </Route>
 
           <PrivateRoute path="/dashboard/order/:serviceId">
             <AddOrder></AddOrder>
